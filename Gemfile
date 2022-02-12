@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.0.0'
+ruby '3.1.0'
 
 gem 'bundler', :require => nil
 gem 'rubygems-update', :require => nil
@@ -14,7 +14,7 @@ gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
+#gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 # gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
@@ -23,6 +23,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
+gem "sprockets-rails"
 gem 'sdoc', group: :doc
 
 # Use ActiveModel has_secure_password
