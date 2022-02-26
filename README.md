@@ -8,12 +8,12 @@
 You can use rvm or rbenv to have a [Ruby Environment Manager](https://hixonrails.com/ruby-on-rails-tutorials/ruby-environment-management/)
 
 ```
-rbenv install 3.0.0
+rbenv install 3.1.0
 ```
 or
 
 ```
-rvm install 3.0.0
+rvm install 3.1.0
 ```
 
 ### System dependencies
